@@ -8,7 +8,3 @@ contact_links:
   - name: Documentation
     url: https://github.com/theveryheavy/importy#readme
     about: Read installation instructions, commands, and examples
-
-  - name: Security Issues
-    url: https://github.com/theveryheavy/importy/security
-    about: Please report security vulnerabilities privately
