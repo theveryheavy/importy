@@ -121,6 +121,8 @@ importy doctor backend/app --project-root backend
 - Classification (`local`, `third_party`, `stdlib`) depends on the interpreter environment.
 - `cost` executes imports for real and requires dependencies installed.
 - Dead import detection is static analysis and can have edge cases with dynamic usage patterns.
+- Files with syntax errors are skipped and reported as parse-error info rows instead of crashing commands.
+- `map` is optimized for large repositories with concurrent scanning and a fast import-only parse path.
 
 ## Issues & Feedback
 
@@ -149,6 +151,8 @@ Feature requests, architecture ideas, and performance suggestions are also welco
 - Added architecture flow view and improved tracing output
 - Added lazy import suggestions and dead import detection
 - Improved startup cost error messaging and table rendering polish
+- Added parse-error resilience across analysis commands (`map`, `lazy`, `dead`)
+- Improved large-repo performance for `map` with concurrent file parsing
 
 ### 0.1.0
 
