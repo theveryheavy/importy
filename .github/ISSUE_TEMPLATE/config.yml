@@ -1,0 +1,14 @@
+blank_issues_enabled: true
+
+contact_links:
+  - name: Questions & Discussions
+    url: https://github.com/theveryheavy/importy/discussions
+    about: Usage questions, architecture discussions, and feature ideas
+
+  - name: Documentation
+    url: https://github.com/theveryheavy/importy#readme
+    about: Read installation instructions, commands, and examples
+
+  - name: Security Issues
+    url: https://github.com/theveryheavy/importy/security
+    about: Please report security vulnerabilities privately
